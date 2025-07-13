@@ -1,0 +1,16 @@
+# R history files
+.Rhistory
+.Rapp.history
+
+# R data files
+.RData
+.RDataTmp
+
+# R user-specific files
+.Rproj.user/
+
+# RStudio files
+.Renviron
+
+# MacOS files
+.DS_Store
