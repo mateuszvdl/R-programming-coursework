@@ -27,6 +27,19 @@ This repository contains scripts and projects from my university coursework in t
     * Creating a basic histogram with `hist()`.
     * Importing data from an Excel file using the `readxl` package.
 
+### 3. Data Manipulation with `tidyverse`
+* **File:** `03_data_manipulation_with_tidyverse.R`
+* **Description:** This script introduces the `tidyverse`, a powerful collection of R packages for data science. It focuses on data manipulation and transformation workflows.
+* **Topics Covered:**
+    * Importing data with `readxl` and `readr`.
+    * Cleaning column names with `janitor`.
+    * Using the pipe operator `|>` for readable code.
+    * Filtering rows with `filter()`.
+    * Selecting columns with `select()` and its helper functions.
+    * Creating new variables with `mutate()`.
+    * Grouping and summarizing data with `group_by()` and `summarize()`.
+    * Sorting data with `arrange()`.
+
 ---
 
 ## How to Run
@@ -40,5 +53,11 @@ To run these scripts, you will need to have R installed on your system. It is hi
     ```
     *(Replace `your-username` with your actual GitHub username).*
 
-2.  **Open in RStudio:**
+2.  **Install Packages:**
+    These scripts use several external packages. Before running, you may need to install them from the R console:
+    ```R
+    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic"))
+    ```
+
+3.  **Open in RStudio:**
     Open the `.R` files in RStudio. You can run the code line-by-line or execute the entire script to see the output in the console.
