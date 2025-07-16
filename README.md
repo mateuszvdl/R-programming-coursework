@@ -40,6 +40,15 @@ This repository contains scripts and projects from my university coursework in t
     * Grouping and summarizing data with `group_by()` and `summarize()`.
     * Sorting data with `arrange()`.
 
+### 4. Advanced Data Wrangling and Basic Stats
+* **File:** `04_advanced_data_manipulation.R`
+* **Description:** This script continues with `tidyverse` workflows, focusing on reshaping data and joining tables, and concludes with a basic statistical test.
+* **Topics Covered:**
+    * Reshaping data from long to wide format with `pivot_wider()`.
+    * Reshaping data from wide to long format with `pivot_longer()`.
+    * Joining data frames with `full_join()` and `inner_join()`.
+    * Performing an independent samples t-test with `t.test()`.
+
 ---
 
 ## How to Run
