@@ -49,6 +49,15 @@ This repository contains scripts and projects from my university coursework in t
     * Joining data frames with `full_join()` and `inner_join()`.
     * Performing an independent samples t-test with `t.test()`.
 
+### 5. Statistical Testing with `rstatix`
+* **File:** `05_statistical_testing_t_tests.R`
+* **Description:** This script focuses on performing and interpreting an independent samples t-test, a fundamental statistical analysis.
+* **Topics Covered:**
+    * Checking statistical assumptions.
+    * Using packages like `skimr` for summary statistics and `ggpubr` for plotting.
+    * Calculating and interpreting a t-test using the `rstatix` package.
+    * Calculating effect size with Cohen's d.
+
 ---
 
 ## How to Run
@@ -65,7 +74,7 @@ To run these scripts, you will need to have R installed on your system. It is hi
 2.  **Install Packages:**
     These scripts use several external packages. Before running, you may need to install them from the R console:
     ```R
-    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic"))
+    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr"))
     ```
 
 3.  **Open in RStudio:**
