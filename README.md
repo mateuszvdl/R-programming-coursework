@@ -58,6 +58,15 @@ This repository contains scripts and projects from my university coursework in t
     * Calculating and interpreting a t-test using the `rstatix` package.
     * Calculating effect size with Cohen's d.
 
+### 6. One-Sample and Non-Parametric Tests
+* **File:** `06_one_sample_and_non_parametric_tests.R`
+* **Description:** This script demonstrates how to perform a one-sample t-test and introduces non-parametric testing with the Wilcoxon test.
+* **Topics Covered:**
+    * Performing a one-sample t-test to compare a sample mean to a population mean.
+    * Performing a Wilcoxon signed-rank test for paired samples as a non-parametric alternative.
+    * Calculating effect sizes for these tests.
+    * Visualizing data with `ggboxplot` and `gghistogram`.
+
 ---
 
 ## How to Run
