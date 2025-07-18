@@ -9,69 +9,42 @@ This repository contains scripts and projects from my university coursework in t
 ### 1. R Basics
 * **File:** `01_r_basics.R`
 * **Description:** An introductory script covering the fundamental syntax of R.
-* **Topics Covered:**
-    * Basic arithmetic operations.
-    * Variable assignment using `<-`.
-    * Creating numeric and character vectors with the `c()` function.
-    * Loading packages with the `library()` function.
 
 ### 2. Data Frames and Importing Data
 * **File:** `02_data_frames_and_import.R`
 * **Description:** This script covers creating data sequences, addressing vectors, and the basics of working with data frames, including loading external data.
-* **Topics Covered:**
-    * Creating sequences with `seq()` and the `:` operator.
-    * Indexing and subsetting vectors.
-    * Handling special values like `NA`, `NaN`, and `Inf`.
-    * Loading and inspecting a built-in data frame (`titanic` dataset).
-    * Calculating descriptive statistics (`summary()`, `mean()`).
-    * Creating a basic histogram with `hist()`.
-    * Importing data from an Excel file using the `readxl` package.
 
 ### 3. Data Manipulation with `tidyverse`
 * **File:** `03_data_manipulation_with_tidyverse.R`
 * **Description:** This script introduces the `tidyverse`, a powerful collection of R packages for data science. It focuses on data manipulation and transformation workflows.
-* **Topics Covered:**
-    * Importing data with `readxl` and `readr`.
-    * Cleaning column names with `janitor`.
-    * Using the pipe operator `|>` for readable code.
-    * Filtering rows with `filter()`.
-    * Selecting columns with `select()` and its helper functions.
-    * Creating new variables with `mutate()`.
-    * Grouping and summarizing data with `group_by()` and `summarize()`.
-    * Sorting data with `arrange()`.
 
 ### 4. Advanced Data Wrangling and Basic Stats
 * **File:** `04_advanced_data_manipulation.R`
 * **Description:** This script continues with `tidyverse` workflows, focusing on reshaping data and joining tables, and concludes with a basic statistical test.
-* **Topics Covered:**
-    * Reshaping data from long to wide format with `pivot_wider()`.
-    * Reshaping data from wide to long format with `pivot_longer()`.
-    * Joining data frames with `full_join()` and `inner_join()`.
-    * Performing an independent samples t-test with `t.test()`.
 
 ### 5. Statistical Testing with `rstatix`
 * **File:** `05_statistical_testing_t_tests.R`
 * **Description:** This script focuses on performing and interpreting an independent samples t-test, a fundamental statistical analysis.
-* **Topics Covered:**
-    * Checking statistical assumptions.
-    * Using packages like `skimr` for summary statistics and `ggpubr` for plotting.
-    * Calculating and interpreting a t-test using the `rstatix` package.
-    * Calculating effect size with Cohen's d.
 
 ### 6. One-Sample and Non-Parametric Tests
 * **File:** `06_one_sample_and_non_parametric_tests.R`
 * **Description:** This script demonstrates how to perform a one-sample t-test and introduces non-parametric testing with the Wilcoxon test.
+
+### 7. Correlation Analysis
+* **File:** `07_correlation_analysis.R`
+* **Description:** This script focuses on exploring relationships between variables using correlation analysis.
 * **Topics Covered:**
-    * Performing a one-sample t-test to compare a sample mean to a population mean.
-    * Performing a Wilcoxon signed-rank test for paired samples as a non-parametric alternative.
-    * Calculating effect sizes for these tests.
-    * Visualizing data with `ggboxplot` and `gghistogram`.
+    * Visualizing correlations with `PerformanceAnalytics::chart.Correlation()`.
+    * Creating and interpreting a correlation matrix with `rstatix::cor_mat()`.
+    * Performing pairwise correlation tests with `rstatix::cor_test()`.
+    * Using both Pearson and Spearman correlation methods.
+    * Exporting results to an Excel file using the `xlsx` package.
 
 ---
 
 ## How to Run
 
-To run these scripts, you will need to have R installed on your system. It is highly recommended to use an IDE like **RStudio**.
+To run these scripts, you will need to have R and preferably RStudio installed.
 
 1.  **Clone the repository:**
     ```bash
@@ -83,8 +56,9 @@ To run these scripts, you will need to have R installed on your system. It is hi
 2.  **Install Packages:**
     These scripts use several external packages. Before running, you may need to install them from the R console:
     ```R
-    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr"))
+    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx"))
     ```
+    *Note: The `xlsx` package requires Java to be installed on your system.*
 
 3.  **Open in RStudio:**
-    Open the `.R` files in RStudio. You can run the code line-by-line or execute the entire script to see the output in the console.
+    Open the `.R` files in RStudio. You can run the code line-by-line or execute the entire script to see the output.
