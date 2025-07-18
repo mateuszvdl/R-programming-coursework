@@ -62,3 +62,9 @@ To run these scripts, you will need to have R and preferably RStudio installed.
 
 3.  **Open in RStudio:**
     Open the `.R` files in RStudio. You can run the code line-by-line or execute the entire script to see the output.
+
+---
+
+## License
+
+This project is licensed under the [BSD 3-Clause License](LICENSE).
