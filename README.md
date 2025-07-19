@@ -33,12 +33,16 @@ This repository contains scripts and projects from my university coursework in t
 ### 7. Correlation Analysis
 * **File:** `07_correlation_analysis.R`
 * **Description:** This script focuses on exploring relationships between variables using correlation analysis.
+
+### 8. Data Visualization with `ggplot2`
+* **File:** `08_data_visualization_with_ggplot2.R`
+* **Description:** This script introduces `ggplot2`, a powerful and versatile library for creating complex and aesthetically pleasing data visualizations.
 * **Topics Covered:**
-    * Visualizing correlations with `PerformanceAnalytics::chart.Correlation()`.
-    * Creating and interpreting a correlation matrix with `rstatix::cor_mat()`.
-    * Performing pairwise correlation tests with `rstatix::cor_test()`.
-    * Using both Pearson and Spearman correlation methods.
-    * Exporting results to an Excel file using the `xlsx` package.
+    * Building plots layer by layer (`ggplot`, `geom_point`).
+    * Mapping variables to aesthetics like color, shape, and labels (`aes`).
+    * Customizing labels, titles, and axes (`xlab`, `ylab`, `ggtitle`).
+    * Using `ggrepel` to prevent text labels from overlapping.
+    * Applying pre-built themes with `ggthemes`.
 
 ---
 
@@ -56,7 +60,7 @@ To run these scripts, you will need to have R and preferably RStudio installed.
 2.  **Install Packages:**
     These scripts use several external packages. Before running, you may need to install them from the R console:
     ```R
-    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx"))
+    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx", "PogromcyDanych", "ggrepel", "ggthemes", "jtools"))
     ```
     *Note: The `xlsx` package requires Java to be installed on your system.*
 
