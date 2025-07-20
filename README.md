@@ -37,12 +37,15 @@ This repository contains scripts and projects from my university coursework in t
 ### 8. Data Visualization with `ggplot2`
 * **File:** `08_data_visualization_with_ggplot2.R`
 * **Description:** This script introduces `ggplot2`, a powerful and versatile library for creating complex and aesthetically pleasing data visualizations.
+
+### 9. Linear Regression
+* **File:** `09_linear_regression.R`
+* **Description:** This script introduces linear regression for modeling the relationship between a dependent and an independent variable.
 * **Topics Covered:**
-    * Building plots layer by layer (`ggplot`, `geom_point`).
-    * Mapping variables to aesthetics like color, shape, and labels (`aes`).
-    * Customizing labels, titles, and axes (`xlab`, `ylab`, `ggtitle`).
-    * Using `ggrepel` to prevent text labels from overlapping.
-    * Applying pre-built themes with `ggthemes`.
+    * Visualizing linear trends with `geom_smooth(method = "lm")`.
+    * Building a linear model using the `lm()` function.
+    * Interpreting model results with `summary()`.
+    * Using packages like `sjPlot` and `broom` for model analysis.
 
 ---
 
@@ -60,7 +63,7 @@ To run these scripts, you will need to have R and preferably RStudio installed.
 2.  **Install Packages:**
     These scripts use several external packages. Before running, you may need to install them from the R console:
     ```R
-    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx", "PogromcyDanych", "ggrepel", "ggthemes", "jtools"))
+    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx", "PogromcyDanych", "ggrepel", "ggthemes", "jtools", "sjPlot", "ggfortify", "broom"))
     ```
     *Note: The `xlsx` package requires Java to be installed on your system.*
 
