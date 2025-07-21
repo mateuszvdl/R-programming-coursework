@@ -41,11 +41,16 @@ This repository contains scripts and projects from my university coursework in t
 ### 9. Linear Regression
 * **File:** `09_linear_regression.R`
 * **Description:** This script introduces linear regression for modeling the relationship between a dependent and an independent variable.
+
+### 10. Multiple Regression
+* **File:** `10_multiple_regression.R`
+* **Description:** This script expands on linear regression by building models with multiple predictor variables.
 * **Topics Covered:**
-    * Visualizing linear trends with `geom_smooth(method = "lm")`.
-    * Building a linear model using the `lm()` function.
-    * Interpreting model results with `summary()`.
-    * Using packages like `sjPlot` and `broom` for model analysis.
+    * Building multiple linear regression models with `lm(y ~ x1 + x2)`.
+    * Comparing models using R-squared values.
+    * Interpreting coefficients in a multiple regression context.
+    * Using `sjPlot::tab_model()` and `sjPlot::plot_model()` for clear model summaries and visualizations.
+    * Working with categorical predictors in a regression model.
 
 ---
 
