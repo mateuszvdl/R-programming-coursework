@@ -52,6 +52,14 @@ This repository contains scripts and projects from my university coursework in t
     * Using `sjPlot::tab_model()` and `sjPlot::plot_model()` for clear model summaries and visualizations.
     * Working with categorical predictors in a regression model.
 
+### 11. Regression Diagnostics
+* **File:** `11_regression_diagnostics.R`
+* **Description:** This script covers the interpretation of regression models and the verification of key statistical assumptions.
+* **Topics Covered:**
+    * In-depth interpretation of model coefficients and R-squared.
+    * Using `sjPlot::tab_model()` for publication-ready summary tables.
+    * Checking assumptions of linear regression (e.g., homoscedasticity, normality of residuals) using diagnostic plots.
+
 ---
 
 ## How to Run
