@@ -69,6 +69,16 @@ This repository contains scripts and projects from my university coursework in t
     * Conducting post-hoc tests (Tukey's HSD) to find specific group differences.
     * Visualizing results with `ggboxplot` and `ggbarplot`, including confidence intervals and p-values.
 
+### 13. Repeated Measures ANOVA
+* **File:** `13_repeated_measures_ANOVA.R`
+* **Description:** This script covers one-way repeated measures ANOVA, used for analyzing data where the same subjects are tested under multiple conditions.
+* **Topics Covered:**
+    * Importing SPSS data (`.sav`) with the `haven` package.
+    * Checking assumptions for repeated measures ANOVA, including sphericity.
+    * Performing the analysis with `rstatix::anova_test()`.
+    * Conducting pairwise comparisons with Bonferroni correction.
+    * Visualizing results with `ggboxplot` and `ggbarplot`.
+
 ---
 
 ## How to Run
@@ -85,7 +95,7 @@ To run these scripts, you will need to have R and preferably RStudio installed.
 2.  **Install Packages:**
     These scripts use several external packages. Before running, you may need to install them from the R console:
     ```R
-    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx", "PogromcyDanych", "ggrepel", "ggthemes", "jtools", "sjPlot", "ggfortify", "broom"))
+    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx", "PogromcyDanych", "ggrepel", "ggthemes", "jtools", "sjPlot", "ggfortify", "broom", "haven"))
     ```
     *Note: The `xlsx` package requires Java to be installed on your system.*
 
