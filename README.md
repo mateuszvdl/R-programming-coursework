@@ -60,6 +60,15 @@ This repository contains scripts and projects from my university coursework in t
     * Using `sjPlot::tab_model()` for publication-ready summary tables.
     * Checking assumptions of linear regression (e.g., homoscedasticity, normality of residuals) using diagnostic plots.
 
+### 12. ANOVA (Analysis of Variance)
+* **File:** `12_ANOVA.R`
+* **Description:** This script demonstrates how to perform a one-way between-groups ANOVA to compare the means of three or more groups.
+* **Topics Covered:**
+    * Checking ANOVA assumptions (outliers, normality of residuals, homogeneity of variances).
+    * Performing the ANOVA test using `rstatix::anova_test()`.
+    * Conducting post-hoc tests (Tukey's HSD) to find specific group differences.
+    * Visualizing results with `ggboxplot` and `ggbarplot`, including confidence intervals and p-values.
+
 ---
 
 ## How to Run
