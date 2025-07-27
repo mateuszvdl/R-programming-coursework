@@ -79,6 +79,10 @@ This repository contains scripts and projects from my university coursework in t
     * Conducting pairwise comparisons with Bonferroni correction.
     * Visualizing results with `ggboxplot` and `ggbarplot`.
 
+### 14. Final Exam Script
+* **File:** `14_final_exam_script.R`
+* **Description:** A comprehensive script from the final exam, combining skills in data import, cleaning, statistical analysis (t-test, regression, ANOVA), and interpretation.
+
 ---
 
 ## How to Run
@@ -95,7 +99,7 @@ To run these scripts, you will need to have R and preferably RStudio installed.
 2.  **Install Packages:**
     These scripts use several external packages. Before running, you may need to install them from the R console:
     ```R
-    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx", "PogromcyDanych", "ggrepel", "ggthemes", "jtools", "sjPlot", "ggfortify", "broom", "haven"))
+    install.packages(c("tidyverse", "readxl", "readr", "janitor", "titanic", "skimr", "rstatix", "datarium", "ggpubr", "PerformanceAnalytics", "xlsx", "PogromcyDanych", "ggrepel", "ggthemes", "jtools", "sjPlot", "ggfortify", "broom", "haven", "report", "ggstatsplot", "openxlsx", "hrbrthemes", "car", "multcomp"))
     ```
     *Note: The `xlsx` package requires Java to be installed on your system.*
 
