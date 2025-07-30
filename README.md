@@ -1,4 +1,4 @@
-# R Programming Coursework
+# R Programming Coursework 1
 
 This repository contains scripts and projects from my university coursework in the R programming language, focusing on data analysis and statistical computing.
 
